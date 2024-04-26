@@ -1,0 +1,13 @@
+.listar-editora{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.table{
+    border: 2px solid;
+    width: 600px;
+}

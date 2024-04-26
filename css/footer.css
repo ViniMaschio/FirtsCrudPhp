@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: gray;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

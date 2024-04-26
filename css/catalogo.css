@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+hr{
+    width: 260px;
+    color: black;
+    
+}
+
+.catalogo-livros{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+#livros{
+    
+    border: 2px solid;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    width: 260px;
+    
+}
+
+.nome-livro {
+    margin: 5px 5px 0px 5px;
+    height: 48px;
+}
+
+figcaption{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 48px;
+}
+
+
+#foto{
+    height: 300px;
+    width: 250px;
+}
